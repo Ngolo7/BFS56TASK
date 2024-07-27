@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: url("Images/IMG_1763.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: crimson;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: aqua;
+  }
+  h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: rgb(79, 17, 212);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: blue;
+    text-decoration: wavy;
+  }
+}
